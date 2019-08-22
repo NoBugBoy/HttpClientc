@@ -1,4 +1,4 @@
-# 封装了HTTPclient连接池,简化创建方式，提高效率，不需要额外new一堆类，直接使用方便快捷
+# 封装了HTTPclient连接池,简化创建方式，提高效率，支持GET,POST,代理模式，不需要额外new一堆类，直接使用方便快捷
 注意：使用完成一定要手动回收一下，apiClientc.releaseConnection(httpGet/httpPost);
 注意：不手动设置超时默认为3秒（一般够用了）
 
