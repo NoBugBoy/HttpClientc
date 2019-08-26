@@ -2,7 +2,7 @@
 注意：使用完成一定要手动回收一下，apiClientc.releaseConnection(httpGet/httpPost);
 注意：不手动设置超时默认为3秒（一般够用了）
 
-SpringBoot 依赖
+SpringBoot 依赖，手动下载包到本地私服仓库
 ```xml
                 <dependency>
 			<groupId>com.httpyu</groupId>
